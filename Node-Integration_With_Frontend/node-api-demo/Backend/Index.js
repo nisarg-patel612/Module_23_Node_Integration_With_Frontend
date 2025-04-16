@@ -8,7 +8,7 @@ app.use(express.json());
 
 const users = [];
 
-// GET all users
+
 app.get('/api/users', (req, res) => {
   res.json(users);
 });
